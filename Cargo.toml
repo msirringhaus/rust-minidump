@@ -17,14 +17,14 @@ exclude = [
 edition = "2018"
 
 [dependencies]
-failure = "0.1.1"
+failure = "0.1.6"
 range-map = "0.1.5"
-libc = "0.2.34"
+libc = "0.2.74"
 minidump-common = { version = "0.2.0", path = "minidump-common" }
 num-traits = "0.2"
 encoding = "0.2"
-chrono = "0.4.6"
-scroll = "0.10.2"
+chrono = "0.4.10"
+scroll = "0.10.1"
 memmap = "0.7.0"
 
 [dev-dependencies]
